@@ -1,1 +1,77 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  font-family: Arial;
+  background-color: rgb(95, 195, 95);
+  text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  width: 80px;
+  height: 120px;
+  margin: 10px;
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card .value {
+  font-size: 32px;
+}
+
+.card .top-left,
+.card .bottom-right {
+  position: absolute;
+  font-size: 18px;
+}
+
+.card .top-left {
+  top: 5px;
+  left: 5px;
+}
+
+.card .bottom-right {
+  bottom: 5px;
+  right: 5px;
+  transform: rotate(180deg);
+}
+
+.card.red {
+  color: red;
+}
+
+.sort-log {
+  margin-top: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sort-step {
+  margin-bottom: 20px;
+}
+
+.step-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
