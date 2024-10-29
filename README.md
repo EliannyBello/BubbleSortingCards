@@ -1,4 +1,4 @@
-Y se encuentra disponible en la web [Click aquí](https://bubble-sorting-cards-opal.vercel.app/)
+Y se encuentra disponible en la web [Click aquí]()
 
 # Hello World with Vanilla JS
 
